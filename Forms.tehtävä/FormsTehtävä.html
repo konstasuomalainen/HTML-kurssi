@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Lomake</title>
+<link rel="stylesheet" href="bodyBorder.css">
+</head>
+
+<body>
+<H1 style="font-size: large;">Yhteystiedot:</H1>
+  <fieldset style="width: 10cm;">
+  <table>
+  
+  <td>
+    <label for="fname">Etunimi:</label><br>
+    <input type="text" id="fname" name="fname"> Yhteydenotto kanavat<br>
+    <label for="lname">Sukunimi:</label><br>
+    <input type="text" id="lname" name="lname">
+    <input type="checkbox">Sähköposti<br>
+    <label for="sposti">Sähköposti:</label><br>
+    <input type="email" id="sposti" name="sposti">
+    <input type="checkbox">Puhelinnumero<br><br>
+  </td>
+
+</table>
+</fieldset>
+
+<H1 style="font-size: large;">Palaute:</H1>
+<fieldset style="width: 10cm;">
+
+<table>
+ 
+  
+  <td>
+  <label for="palaute">Aihe:</label>
+  <input style="width: 5cm;" type="text" id="palaute" name="palaute"><br><br>
+  <textarea style="width: 8cm; height: 5cm;" class="longInput" cols="30" rows="10"></textarea><br>
+  <label style="margin-right: 0cm;" for="tiedosto">Lisää tiedosto:</label>
+  <input type="file" id="tiedosto" name="tiedostopalautus"><br><br>
+  <input type="submit" value="Send">
+  </td>
+
+</table>
+</fieldset>
+</body>
+</html>
